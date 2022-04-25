@@ -1,0 +1,97 @@
+body{
+    color: white;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    text-align: center;
+    }
+
+ul{
+    list-style: none;
+    overflow: hidden;
+    left: 0;
+    position: absolute;
+    padding-right: 5%;
+    }
+
+ul a{
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+    font-size: 1rem
+}
+ul a:hover{
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+#hometext{
+            position: absolute;
+            margin-top: 20%;
+            padding-left: 15%;
+        }
+
+#hometext h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+.sup{
+    color: black;
+}
+#hometext h6{
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#abouttext h1{
+    padding-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#abouttext p{
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#WORKS{
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+#awards{
+    padding: 15%;
+}
+img{
+    z-index: -2;
+}
+
+.hello{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.album{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid blue;
+    height: 50%;
+}
+
+.songs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid blue;
+
+}
+footer{
+    padding-top: 10%;
+}
